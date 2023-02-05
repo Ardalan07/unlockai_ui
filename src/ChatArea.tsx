@@ -10,7 +10,7 @@ import './App.css';
 
 const ChatArea = ({ setCurrent }: any) => {
     // const storedApiKey = Cookies.get("apiKey");
-    const storedApiKey = "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";
+    const storedApiKey = "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";
 
     const { messages, appendMsg, setTyping } = useMessages([]);
     const [openai, setOpenai] = useState(new OpenAIApi(new Configuration({ apiKey: storedApiKey })));
